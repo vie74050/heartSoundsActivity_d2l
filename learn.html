@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<head>
+	<link rel="stylesheet" type="text/css" href="scripts/bootstrap/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="scripts/styles.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="scripts/bootstrap/js/bootstrap.min.js"></script>
+	<script src="scripts/learn.js"></script>
+</head>
+
+<body>
+	<audio id = "audio"  preload="auto" loop>
+		<source src="assets/S1S2_Apex.m4a" type="audio/mpeg" />
+	 	<source src="assets/" type="audio/ogg" />	
+		Your browser does not support the audio element.
+	</audio>
+	
+	<div id = "btns" class="btn-group btn-group-vertical">
+		<button id="play" class="btn btn-success" onClick="PlayAudio();">New Patient</button>
+		<br>
+		<label>The condition is: </label>
+	</div>
+	<div id="bg"><img id="img" class="nostetho" src="assets/chest.png" width="573" height="855" alt="Patient"></div>
+	<div id = "alerts" class="alert alert-info">
+		<b><p>MAKE SURE AUDIO IS TURNED UP ON YOUR DEVICE.</p><p>Headphones recommended.</p></b> 
+		<p id = "info"></p>
+	</div>
+		
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+img {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.stetho {
+    cursor: url(../assets/Stethoscope.png), auto;
+}
+
+.nostetho {
+    cursor: auto;
+}
+
+#debug {
+    padding: 10px 50px 10px 10px;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 14px;
+}
+
+#btns {
+    position: absolute;
+    left: 470px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#alerts b {
+    color: red;
+}
+
+#alerts .t {
+    color: green;
+}
